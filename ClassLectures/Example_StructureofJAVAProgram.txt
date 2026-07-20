@@ -1,0 +1,29 @@
+// program to demonstrate java program structure
+package com.example;
+import java.util.*;
+/Class Section*/
+class A{
+ int num1;
+ void display1(){
+   System.out.println("Number in Class A:"+num1);
+ }
+}
+
+class B{
+ int num2;
+ void display2(){
+  System.out.println("Number in Class B:"+num2);
+ }
+}
+
+/*Main Class Section/
+public class MainClass{
+  public static void main(String args[]){
+    A a=new A();
+	a.num1=12;
+    a.display1();
+    B b=new B();
+    b.num2=16;
+    b.display2();	
+  }
+}

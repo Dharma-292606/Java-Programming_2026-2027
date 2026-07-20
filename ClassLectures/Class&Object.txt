@@ -1,0 +1,49 @@
+/*class -  it is a collection of data memebers and member function
+
+format- 1.every word should start with capital letter in the JAVA class name
+        2. except starting word remaining all words should start with capital 
+		   letter in JAVA function name
+Syntax:
+     [<access_specifier>] class <class_name>{
+	     /*Data Members*/
+		 [<access_specifier>] <datatype> <var_name>;
+		 ---
+		 ---
+		 ---
+		 ---
+		 /*Member Functions*/
+		 [<access_specifier>] <returntype> <fun_name>([<parameters>]){
+		    // set of statements
+		 }
+	 }
+	 
+Example:
+      public class StudentDetails{
+	    private int stdId;
+		float stdName;
+		public void displayStudent(){
+		   System.out.println(stdName);
+		}
+	 }
+	 
+*/
+
+
+Object - is an instance of a class
+
+* access class members by using object with member access operator(.)
+
+Syntax: 
+        <class_name> <object_name>=new <class_name>([<parameters>]);
+Example:
+        StudentDetails std=new StudentDetails();
+		
+		std.stdId=1216;
+		std.stdName='Raj';
+		
+	 
+	 	 
+	
+	 
+
+	 
