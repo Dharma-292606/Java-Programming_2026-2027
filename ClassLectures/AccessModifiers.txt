@@ -1,0 +1,21 @@
+Access Specifiers: determine the accessibility and visibilityof the methods, data members and classes.
+1. private
+2. default
+3. protected
+4. public
+
+	AM		private		default		protected		public	
+
+same class    Y				Y			Y			   Y
+
+sub class	  N				Y			Y			   Y
+(same package)
+
+non-sub class N				Y			Y			   Y
+(same package)
+
+sub class     N				N			Y			   Y
+(diff package)
+
+non-sub class N				N			N			   Y
+(diff package)

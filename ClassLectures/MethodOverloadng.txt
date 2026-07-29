@@ -1,0 +1,14 @@
+Polymorphsm: a method can act as multple forms at multiple places.
+
+
+* two types: 1. compiletime achived by concept Method Overloading(same method name with different returntype and different parameters)
+                ex:
+				    void add()
+					int add(int x)
+					void add(int x,float y)
+					int add(int x, int y)
+					float add(float x)
+			 2. Runtime achived by concept Method Overriding(same method name with same returntype and parameters)
+			    ex:
+				   int add(int x)
+				   int add(int x)
