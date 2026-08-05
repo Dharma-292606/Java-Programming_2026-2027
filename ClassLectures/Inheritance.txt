@@ -1,0 +1,55 @@
+Inheritance:
+*create a new class by using properties of an existing class
+*Existing class - super/base/parent
+ new class      - sub/derived/child
+* will be achived by extends keyword
+* There are 5 ways to achive inheritance concept
+  1. Single Inheritance - single base/single derived
+		class Base{
+		 ----
+		}
+		class Derived extends Base{
+		 -----
+		}
+  2. Multilevel Inheritance -one of the derived will act as a parent 
+        class GrandParent{
+		 -----
+		}
+		class Parent extends GrandParent{
+		 -----
+		}
+  3. Multiple Inheritance - more than one base/single derived
+		class BaseOne{
+		 -----
+		}
+		class BaseTwo{
+		 -----
+		}
+		class Derived extends BaseOne,BaseTwo{
+		 -----
+		}
+  4. Hierarchical Inheritance - single base/morethan one derived
+        class Base{
+		 -----
+		}
+		class DerivedOne extends Base{
+		 -----
+		}
+		class DerivedTwo extends Base{
+		 -----
+		}
+  5. Hybrid Inheritance -  comination of any two from above
+      // combination of single and Hierarchical inheritances
+		class GrandParent{
+	     -----	
+		}
+		class Parent extends GrandParent{
+		 -----
+		}
+		class ChildOne extends Parent{
+		 -----
+		}
+		class ChildTwo extends Parent{
+		 -----
+		}
+   
