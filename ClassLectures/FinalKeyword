@@ -1,0 +1,16 @@
+Using "final" Keyword in JAVA:
+* final keyword is non-access modifier used to restrict from 
+  further modifying variables,methods and class 
+* if final is used for variable declaration means that value will no modify 
+  Ex:
+      final int val=1216;
+* if final is used for method means not possible to override in sub class
+  Ex:
+     final void display(){
+	  ------
+	 }
+* if final is used for class means not possible to inherit
+  Ex:
+     final class Vehicle{
+	  ------
+	 }

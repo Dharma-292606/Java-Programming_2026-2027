@@ -1,0 +1,25 @@
+* class must have only concrete methods(non-abstract methods)
+  but abstract class conatins both concrete and abstract methods.
+* Declare an abstract method in abstract class and override that
+  method in child class.
+* abstract class should not have any object.
+* abstract class and method created by abstract keyword
+* override tha abstract method with public keyword in child class.
+  Syntax:
+         abstract class Parent{
+		    -------
+			//concrete method
+			void display(){
+              -----			
+			}
+			//abstract methods
+			void show();
+		 }
+		 class Child extends Parent{
+		   void printVal(){
+		    ------
+		   }
+		   public void show(){
+		    -------
+		   }
+		 } 
